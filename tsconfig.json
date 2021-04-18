@@ -1,0 +1,5 @@
+{
+  "extends": "@splatterxl/tsconfig",
+  "include": ["./**.ts"],
+  "compilerOptions": { "target": "ESNext" }
+}
