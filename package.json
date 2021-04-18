@@ -12,5 +12,6 @@
   },
   "devDependencies": {
     "@splatterxl/tsconfig": "^1.0.0"
-  }
+  },
+  "type": "module"
 }
