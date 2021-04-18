@@ -1,6 +1,6 @@
-import express from "express";
+import * as express from "express";
 import axios from "axios";
-import cheerio from "cheerio";
+import * as cheerio from "cheerio";
 const BASE = "http://www.fileformat.info/info/unicode/char/";
 const app = express();
 app.get("/info", async (req, res) => {
