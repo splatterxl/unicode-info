@@ -1,4 +1,4 @@
-import * as express from "express";
+import express from "express";
 import axios from "axios";
 import * as cheerio from "cheerio";
 const BASE = "http://www.fileformat.info/info/unicode/char/";
