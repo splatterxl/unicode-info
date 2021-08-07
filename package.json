@@ -11,7 +11,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "@splatterxl/tsconfig": "^1.0.0"
+    "@splatterxl/tsconfig": "1.0.0"
   },
   "type": "module"
 }
