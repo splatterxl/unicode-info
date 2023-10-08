@@ -16,7 +16,7 @@ app.get("/info", async (req, res) => {
     });
   }
   const $ = cheerio.load(response.data);
-  let obj: Record<string, string> = {};
+  let obj: Record<string, string | undefined | null> = {};
   obj.name = $("meta[name='og:title']").attr("content");
   // @ts-ignore
   obj.fullname = $("table td h1")[0].children[0].data;
