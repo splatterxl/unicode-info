@@ -23,7 +23,7 @@ app.get("/info", async (req, res) => {
   // @ts-ignore
   obj.fullname = $("table td h1")[0].children[0].data;
   obj.url = BASE + char;
-  obj.code = obj.name?.match(/U\+([\dA-Fa-f]+)/)?.[1] ?? `U+${char.toUpperCase()}`;
+  obj.code = obj.name?.match(/U\+([\dA-Fa-f]+)/)?.[1] ?? `U+${char.toString?.()?.toUpperCase() ?? 'UNKNOWN'}`;
   obj.char = String.fromCharCode(parseInt(obj.code, 16));
   res.send(obj);
 });
